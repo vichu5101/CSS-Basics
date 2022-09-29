@@ -1,0 +1,34 @@
+a:link{
+    color: lawngreen;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: indianred;
+}
+a:active{
+    color: yellow;
+}
+button:hover{
+    background-color: green;
+}
+button:active{
+    background-color: gold;
+}
+/* li:nth-child(odd){
+    color: blue;
+} */
+/* li:nth-child(even){
+    color:red
+} */
+/* li:nth-child(1){
+    color: green;
+} */
+li{
+    list-style-type: square;
+}
+li:nth-child(2n){
+    list-style-type: square;
+    color: yellow;
+}

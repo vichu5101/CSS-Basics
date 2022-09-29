@@ -1,0 +1,50 @@
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 225px;
+    text-align: center;
+    /* animation: myRotate;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    /* animation: 5s linear 0s 5 running myColorChange; */
+}
+
+#box:hover{
+    background-color: skyblue;
+}
+#box:active{
+    background-color: green;
+}
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes myRotate{
+    100%{transform: rotateX(360deg);}
+    100%{transform: rotateY(360deg);}
+    100%{transform: rotateZ(360deg);}
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5,0.5);}
+}
+
+@keyframes myColorChange{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: skyblue;}
+    100%{background-color: purple;}
+
+}

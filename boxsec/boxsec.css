@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height:200px;
+    background: linear-gradient(to left,powderblue,white);
+    margin: 10px;
+    /* float:right; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 45px;
+}
+p{
+    clear: both;
+}

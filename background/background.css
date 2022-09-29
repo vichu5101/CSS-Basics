@@ -1,0 +1,19 @@
+body{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    color:black;
+    background: linear-gradient(to right,powderblue,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color:rgb(219, 202, 202);
+    background: linear-gradient(to right,rgb(9, 71, 79),white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

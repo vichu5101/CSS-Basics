@@ -1,0 +1,21 @@
+p::first-letter{
+    font-size: 40px;
+    font-style: italic;
+}
+p::first-line{
+    color: green;
+}
+
+#list1 li::before{
+    content:"hello "
+}
+#css::after{
+    content: " bye";
+}
+li::marker{
+    color: red;
+}
+p::selection{
+    color: red;
+    background: gold;
+}
